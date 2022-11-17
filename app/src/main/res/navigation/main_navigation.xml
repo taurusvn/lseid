@@ -6,7 +6,7 @@
 
     <include app:graph="@navigation/home"/>
     <include app:graph="@navigation/mall"/>
-    <include app:graph="@navigation/info"/>
+    <include app:graph="@navigation/notify"/>
     <include app:graph="@navigation/profile"/>
 
 </navigation>

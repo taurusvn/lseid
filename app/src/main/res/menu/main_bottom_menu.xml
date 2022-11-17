@@ -14,9 +14,9 @@
         android:title="@null"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/info"
-        android:icon="@drawable/ic_info"
-        android:title="@string/main_info" />
+        android:id="@+id/notify"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/main_notify" />
     <item
         android:id="@+id/profile"
         android:icon="@drawable/ic_profile"

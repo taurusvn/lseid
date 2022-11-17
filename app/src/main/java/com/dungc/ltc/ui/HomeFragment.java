@@ -25,9 +25,9 @@ public class HomeFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getActivity()!= null) {
-            handleIntent(getActivity().getIntent());
-        }
+//        if (getActivity()!= null) {
+//            handleIntent(getActivity().getIntent());
+//        }
     }
 
     @Nullable
@@ -40,9 +40,9 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        binding.ivNotify.setOnClickListener(view1 -> {
-            redirectNotification();
-        });
+//        binding.ivNotify.setOnClickListener(view1 -> {
+//            redirectNotification();
+//        });
     }
 
     private void handleIntent(Intent intent) {
