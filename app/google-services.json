@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253636000654",
+    "project_id": "lichtiemchung-17918",
+    "storage_bucket": "lichtiemchung-17918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253636000654:android:e21d64fc1b34b7e8e142df",
+        "android_client_info": {
+          "package_name": "com.dungc.ltc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253636000654-0vmqhplud5631tdf5l1tpsvic6ki4drr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCALBAtSKnG_X1nLnNrfm6cOcDmFfO0jKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253636000654-0vmqhplud5631tdf5l1tpsvic6ki4drr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

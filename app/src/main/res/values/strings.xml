@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LSeID</string>
+    <string name="main_home">TRANG CHỦ</string>
+    <string name="main_mall">CỬA HÀNG</string>
+    <string name="main_info">THÔNG TIN</string>
+    <string name="main_profile">HỒ SƠ</string>
+</resources>

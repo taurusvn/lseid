@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="11dp"
+    android:paddingBottom="21dp"
+    android:background="@drawable/bg_item_notify">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/fontMedium13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        tools:text="Nhắc lịch tiêm chủng mũi Cúm A"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/fontRegular13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000"
+        tools:text="Ngày 17/10 các gia đình có bé từ 3 tháng tuổi đến 2 năm tuổi cho bé đến trạm Y Tế xã để được tiêm chủng đầy đủ. "/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_time"
+        app:layout_constraintTop_toTopOf="@+id/tvTime"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTime"
+        app:layout_constraintStart_toStartOf="@+id/tvContent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/ivTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvContent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#888888"
+        tools:text="22:18 28-08-2022"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
