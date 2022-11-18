@@ -51,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = intent.getExtras();
         if (bundle != null) {
             String title = bundle.getString(MyFirebaseMessagingService.NOTIFICATION_KEY);
-            Navigation.findNavController(this, R.id.main_container).navigate(R.id.action_home_to_notify);
+//            Navigation.findNavController(this, R.id.main_container).navigate(R.id.action_home_to_notify);
+            binding.bottomNavigationView.setBottom(3);
         }
     }
 

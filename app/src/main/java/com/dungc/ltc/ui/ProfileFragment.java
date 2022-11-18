@@ -43,7 +43,6 @@ public class ProfileFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         binding.webView.interfereWebViewSetup(this::initWebView);
         binding.webView.startLoading("http://103.169.35.186/lseid/login.php");
-
     }
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -71,5 +70,11 @@ public class ProfileFragment extends Fragment {
         @JavascriptInterface
         public void showMessageInNative(String message) {
         }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
     }
 }
